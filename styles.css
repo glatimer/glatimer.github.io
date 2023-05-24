@@ -5,7 +5,7 @@
 .container-body {
   padding-top: 50px;
   padding-bottom: 400px;
-  background-color: #a7c0be;
+  background-color: #4d6772;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: #fefefe;
 }
@@ -13,6 +13,15 @@
 .GL {
   display: block;
   margin: 0px auto;
+  border: solid 10px #bc8880;
+  border-radius: 50%;
+  border-style: double;
+}
+
+.headshot {
+  display: block;
+  width: 50%;
+  margin: 30px auto;
   border: solid 10px #bc8880;
   border-radius: 50%;
   border-style: double;
@@ -27,9 +36,9 @@ nav {
   /* position: absolute; */
   /* top: 0;
   left: 0; */
-  padding-bottom: 100px; /*might adjust this later */
+  padding-bottom: 50px; /*might adjust this later */
   width: 100%;
-  background-color: #a7c0be;
+  background-color: #4d6772;
   display: flex;
   flex-flow: wrap row;
   justify-content: space-evenly;
@@ -49,32 +58,37 @@ nav {
   padding: 10px;
   color: #fefefe;
   text-decoration: none;
-  font-family: Georgia, "Times New Roman", Times, serif;
+  /* font-family: Georgia, "Times New Roman", Times, serif; */
   font-size: 20px;
 }
 
 .nav-click:hover {
   border-radius: 5px;
-  border: solid 2px #4d6772;
+  border: solid 2px #fefefe;
 }
 
 #experience,
-#projects,
-#contact-info,
+/* #projects,
+#contact-info, */
 #about-me {
-  margin: 50px;
+  margin: 20px;
+  /* padding: 30px; */
   border: 5px solid #bc8880;
   border-radius: 5px;
-  background-color: #a7c0be;
-  font-size: 20px;
+  background-color: #4d6772;
+  font-size: 25px;
 }
 
 #experience,
-#projects,
-#contact-info,
 #about-me h2 {
   padding: 20px;
   padding-bottom: 0px;
+}
+
+#projects,
+#contact-info h2 {
+  display: block;
+  text-align: center;
 }
 
 p {
