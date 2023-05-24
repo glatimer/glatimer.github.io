@@ -4,25 +4,30 @@
 
 .container-body {
   padding-top: 50px;
+  padding-bottom: 400px;
   background-color: #a7c0be;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: #fefefe;
 }
 
 .GL {
   display: block;
   margin: 0px auto;
+  border: solid 10px #bc8880;
+  border-radius: 50%;
+  border-style: double;
 }
 
 h1 {
   text-align: center;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #fefefe;
-  margin-top: 0px;
+  padding: 10px;
 }
 
 nav {
   /* position: absolute; */
-  top: 0;
-  left: 0;
+  /* top: 0;
+  left: 0; */
+  padding-bottom: 100px; /*might adjust this later */
   width: 100%;
   background-color: #a7c0be;
   display: flex;
@@ -37,7 +42,7 @@ nav {
 
 .nav-button {
   display: inline-block;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .nav-click {
@@ -49,6 +54,29 @@ nav {
 }
 
 .nav-click:hover {
-  border-radius: 10px;
-  border: solid #4d6772;
+  border-radius: 5px;
+  border: solid 2px #4d6772;
+}
+
+#experience,
+#projects,
+#contact-info,
+#about-me {
+  margin: 50px;
+  border: 5px solid #bc8880;
+  border-radius: 5px;
+  background-color: #a7c0be;
+  font-size: 20px;
+}
+
+#experience,
+#projects,
+#contact-info,
+#about-me h2 {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+p {
+  padding: 20px;
 }
