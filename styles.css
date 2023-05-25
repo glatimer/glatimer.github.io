@@ -3,19 +3,27 @@
   box-sizing: border-box;
 }
 
+:root {
+  --dark_ocean: #4d6772;
+  --provincial_sky: #a7c0be;
+  --dusty_coral: #bc8880;
+  --canteloupe: #e4c0a0;
+  --white: #fefefe;
+}
+
 .container-body {
   padding-top: 50px;
   padding-bottom: 400px;
-  background-color: #4d6772;
+  background-color: var(--dark_ocean);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: #fefefe;
+  color: var(--white);
 }
 
 /* --------- images --------- */
 .GL {
   display: block;
   margin: 0px auto;
-  border: solid 10px #bc8880;
+  border: solid 10px var(--dusty_coral);
   border-radius: 50%;
   border-style: double;
 }
@@ -24,7 +32,7 @@
   display: block;
   width: 50%;
   margin: 30px auto;
-  border: solid 10px #bc8880;
+  border: solid 10px var(--dusty_coral);
   border-radius: 50%;
   border-style: double;
 }
@@ -42,7 +50,7 @@ nav {
   white-space: nowrap;
   padding: 10px;
   width: 100%;
-  background-color: #4d6772;
+  background-color: var(--dark_ocean);
 }
 
 .nav-list {
@@ -59,14 +67,14 @@ nav {
 
 .nav-click {
   padding: 10px;
-  color: #fefefe;
+  color: var(--white);
   text-decoration: none;
   font-size: 20px;
 }
 
 .nav-click:hover {
   border-radius: 5px;
-  border: solid 2px #fefefe;
+  border: solid 2px var(--white);
 }
 
 /* --------- text boxes for multiple pages --------- */
@@ -74,9 +82,9 @@ nav {
 #about-me {
   margin: 20px;
   padding: 30px;
-  border: 5px solid #bc8880;
+  border: 5px solid var(--dusty_coral);
   border-radius: 5px;
-  background-color: #4d6772;
+  background-color: var(--dark_ocean);
   font-size: 25px;
 }
 
@@ -86,9 +94,8 @@ nav {
   padding-bottom: 0px;
 }
 
-/* --------- pages requiring card layout --------- */
-#projects,
-#contact-info {
+/* --------- projects card layout --------- */
+#projects {
   display: flex;
   flex-flow: wrap row;
   margin: auto;
@@ -96,8 +103,7 @@ nav {
   width: 100%;
 }
 
-#projects,
-#contact-info p {
+#projects p {
   padding: 20px;
   font-size: 25px;
 }
@@ -107,17 +113,85 @@ nav {
   text-align: center;
 }
 
+/* contact form */
+.form-container {
+  display: block;
+  flex-flow: row wrap;
+  margin-top: 0.75em;
+  border: 3px solid var(--dusty_coral);
+  border-radius: 5px;
+}
+
+.form-heading {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-left: 8%;
+}
+
+.form-list {
+  display: block;
+  padding-inline-start: 8px;
+  margin-left: 10px;
+}
+
+.form-item {
+  display: inline-block;
+  padding-bottom: 1px;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5em;
+}
+
+.form-item label {
+  flex: 1;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.form-item input {
+  flex: 2;
+  margin-right: 15px;
+}
+
 .contact {
   display: flex;
   flex-flow: wrap row;
   margin: 30px;
   padding: 10px;
   width: 45%;
-  border: 3px solid #bc8880;
-  border-radius: 5px;
+}
+
+.btn-primary {
+  width: 41%;
+  background-color: var(--dark_ocean);
+  color: var(--white);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: 1em;
+  margin-left: 1.4em;
+  margin-top: 0;
+}
+
+.btn-primary:hover {
+  background-color: var(--provincial_sky);
+}
+
+.btn-secondary {
+  width: 41%;
+  background-color: var(--dark_ocean);
+  color: var(--white);
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+  margin: 0.5em;
+  margin-top: 0;
+}
+
+.btn-secondary:hover {
+  background-color: var(--dusty_coral);
 }
 
 #linkedin,
 #github {
-  color: #e4c0a0;
+  color: var(--canteloupe);
 }

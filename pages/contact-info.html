@@ -36,7 +36,30 @@
     <h2 class="contact-header">Contact Information</h2>
 
     <main id="contact-info">
-      <section class="contact" id="email">
+      <form action="contact-info.html" class="form-container">
+        <h2 class="form-heading">Email Me:</h2>
+        <ul class="form-list">
+          <li class="form-item">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+          </li>
+          <li class="form-item">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required />
+          </li>
+          <li class="form-item">
+            <label for="subject">Email Subject:</label>
+            <input type="text" id="subject" name="subject" required />
+          </li>
+          <li class="form-item">
+            <label for="message">Email Message:</label>
+            <input type="text" id="message" name="message" required />
+          </li>
+        </ul>
+        <button class="btn-primary" type="submit">Submit</button>
+        <button class="btn-secondary">Reset</button>
+      </form>
+      <!-- <section class="contact" id="email">
         <p>
           Email: <br />
           genevievelatimer@gmail.com
@@ -66,7 +89,7 @@
             linkedin.com/in/genevieve-latimer</a
           >
         </p>
-      </section>
+      </section> -->
     </main>
   </body>
 </html>
