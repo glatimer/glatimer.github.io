@@ -19,6 +19,10 @@
   color: var(--white);
 }
 
+a {
+  color: var(--canteloupe);
+}
+
 /* --------- images --------- */
 .GL {
   display: block;
@@ -46,11 +50,18 @@ h1 {
 nav {
   display: flex;
   overflow-x: scroll;
-  justify-content: space-between;
+  justify-content: center;
   white-space: nowrap;
   padding: 10px;
   width: 100%;
   background-color: var(--dark_ocean);
+}
+
+/* Particular spacing in mobile mode */
+@media (max-width: 420px) {
+  nav {
+    justify-content: space-between;
+  }
 }
 
 .nav-list {
@@ -108,31 +119,24 @@ nav {
   font-size: 25px;
 }
 
-.contact-header {
-  display: block;
-  text-align: center;
-}
-
-/* contact form */
+/* --------- contact information - form --------- */
 .form-container {
   display: block;
   flex-flow: row wrap;
-  margin-top: 0.75em;
-  border: 3px solid var(--dusty_coral);
-  border-radius: 5px;
+  margin: auto;
+  max-width: 100%;
 }
 
 .form-heading {
+  display: flex;
+  justify-content: flex-start;
   font-size: 25px;
   font-weight: bold;
-  margin-bottom: 0;
-  margin-left: 8%;
 }
 
 .form-list {
   display: block;
   padding-inline-start: 8px;
-  margin-left: 10px;
 }
 
 .form-item {
@@ -145,21 +149,13 @@ nav {
 
 .form-item label {
   flex: 1;
-  font-size: 14px;
-  font-weight: bold;
+  margin-right: 5px;
+  font-size: 25px;
 }
 
 .form-item input {
   flex: 2;
   margin-right: 15px;
-}
-
-.contact {
-  display: flex;
-  flex-flow: wrap row;
-  margin: 30px;
-  padding: 10px;
-  width: 45%;
 }
 
 .btn-primary {
@@ -169,7 +165,7 @@ nav {
   padding-top: 0.5em;
   padding-bottom: 0.5em;
   margin: 1em;
-  margin-left: 1.4em;
+  margin-left: 50%;
   margin-top: 0;
 }
 
@@ -177,21 +173,26 @@ nav {
   background-color: var(--provincial_sky);
 }
 
-.btn-secondary {
-  width: 41%;
-  background-color: var(--dark_ocean);
-  color: var(--white);
-  padding-top: 0.5em;
-  padding-bottom: 0.5em;
-  margin: 0.5em;
-  margin-top: 0;
+/* contact information - other */
+.contact-header {
+  display: block;
+  text-align: center;
 }
 
-.btn-secondary:hover {
-  background-color: var(--dusty_coral);
+.contact {
+  display: block;
+  width: 80%;
+  margin: 30px auto;
+  padding: 10px;
+  border: 3px solid var(--dusty_coral);
+  border-radius: 5px;
+  text-align: center;
+  font-size: 25px;
 }
 
-#linkedin,
-#github {
-  color: var(--canteloupe);
+/* Particular spacing in mobile mode */
+@media (min-width: 1000px) {
+  .contact {
+    width: 50%;
+  }
 }
