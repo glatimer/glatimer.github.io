@@ -10,6 +10,7 @@
   --canteloupe: #e4c0a0;
   --white: #fefefe;
   --peach: #edd0c0;
+  --celadon: #b3c0ae;
 }
 
 .container-body {
@@ -93,7 +94,7 @@ nav {
 
 .nav-click:hover {
   border-radius: 5px;
-  border: solid 2px var(--white);
+  border: solid var(--celadon) 2px;
 }
 
 /* --------- text boxes for About Me and Experience pages --------- */
