@@ -5,8 +5,8 @@ function buildNavbar() {
   return `
     <a id="logo-button" href="index.html">
         <img
-        class="GL"
-        src="../images/logo.png"
+        id="GL"
+        src="images/logo.png"
         alt="Genevieve's initials in her own handwriting.  White lettering with dusty blue background."
         />
     </a>

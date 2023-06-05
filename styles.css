@@ -26,7 +26,7 @@ a {
 }
 
 /* --------- images --------- */
-.GL {
+#GL {
   display: block;
   margin: 0px auto;
   border: solid 10px var(--dusty_coral);
@@ -34,7 +34,7 @@ a {
   border-style: double;
 }
 
-.headshot {
+#headshot {
   display: block;
   width: 50%;
   margin: 30px auto;
@@ -45,7 +45,7 @@ a {
 
 /* Particular image sizing in laptop mode */
 @media (min-width: 1000px) {
-  .headshot {
+  #headshot {
     max-width: 50%;
   }
 }
