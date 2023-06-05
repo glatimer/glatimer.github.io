@@ -50,6 +50,23 @@ a {
   }
 }
 
+.container {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#signature {
+  width: 300px;
+  height: 100px;
+}
+
+@media (max-width: 500px) {
+  #signature {
+    width: 200px;
+    height: 66px;
+  }
+}
+
 /* --------- header+navbar for all pages --------- */
 h1 {
   text-align: center;
@@ -98,6 +115,7 @@ nav {
 }
 
 /* --------- text boxes for About Me and Experience pages --------- */
+
 #exp-head {
   text-align: center;
   color: var(--peach);
@@ -219,4 +237,43 @@ nav {
   .contact {
     width: 50%;
   }
+}
+
+/* --------- index.html - projects --------- */
+.project-container {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.project-tile {
+  display: block;
+  margin: 20px;
+  width: 45%;
+  flex-basis: calc(50% - 40px);
+  text-align: center;
+  border: solid 5px var(--dusty_coral);
+  border-radius: 3px;
+  color: var(--white);
+}
+
+@media (max-width: 500px) {
+  .project-tile {
+    flex-basis: 100%;
+  }
+}
+
+.project-tile img {
+  display: inline-block;
+  margin: auto;
+  width: 80%;
+  justify-content: center;
+  border: solid 2px var(--celadon);
+}
+
+.project-text {
+  text-align: center;
+  padding: 5px;
 }
