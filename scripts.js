@@ -17,7 +17,7 @@ function buildNavbar() {
           <a class="nav-click" href="../index.html">Home</a>
         </li>
         <li class="nav-button">
-          <a class="nav-click" href="pages/about-me.html">About Me</a>
+          <a class="nav-click" href="about-me.html">About Me</a>
         </li>
         <li class="nav-button">
           <a class="nav-click" href="experience.html">Experience</a>
