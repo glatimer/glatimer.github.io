@@ -60,6 +60,7 @@ a {
   height: 100px;
 }
 
+/* adjust signature size for mobile */
 @media (max-width: 500px) {
   #signature {
     width: 200px;
@@ -145,6 +146,12 @@ nav {
     margin-left: 15%;
     margin-right: 15%;
   }
+}
+
+.link-container {
+  display: block;
+  text-align: center;
+  font-size: 30px;
 }
 
 /* --------- projects card layout --------- */
@@ -251,15 +258,15 @@ nav {
 .project-tile {
   display: block;
   margin: 20px;
-  width: 45%;
-  flex-basis: calc(50% - 40px);
+  width: 400px;
+  height: 650px;
   text-align: center;
   border: solid 5px var(--dusty_coral);
   border-radius: 3px;
   color: var(--white);
 }
 
-@media (max-width: 500px) {
+@media (max-width: 414px) {
   .project-tile {
     flex-basis: 100%;
   }
@@ -268,12 +275,25 @@ nav {
 .project-tile img {
   display: inline-block;
   margin: auto;
-  width: 80%;
+  width: 300px;
+  height: 200px;
   justify-content: center;
   border: solid 2px var(--celadon);
+}
+
+.project-tile #health-tracker {
+  display: inline-block;
+  margin: auto;
+  padding: 10px 30px 10px 30px;
+  width: 300px;
+  height: 300px;
+  justify-content: center;
+  border: solid 2px var(--celadon);
+  background-color: #1f1f1e;
 }
 
 .project-text {
   text-align: center;
   padding: 5px;
+  font-size: 25px;
 }
