@@ -77,8 +77,8 @@ a {
   display: flex;
   margin: auto;
   padding-top: 15px;
-  width: 200px;
-  height: 100px;
+  width: 175px;
+  height: 75px;
 }
 
 #prof-exp-img {
@@ -118,7 +118,6 @@ h2 {
 
 nav {
   display: flex;
-  overflow-x: scroll;
   justify-content: center;
   white-space: nowrap;
   padding: 10px;
@@ -129,6 +128,7 @@ nav {
 /* Particular spacing in mobile mode */
 @media (max-width: 420px) {
   nav {
+    overflow-x: scroll;
     justify-content: space-between;
   }
 }
