@@ -318,7 +318,7 @@ nav {
 .project-tile #garden-planner {
   display: inline-block;
   margin: auto;
-  width: 80%;
+  width: 90%;
   height: 80%;
   justify-content: center;
   border: solid 2px var(--celadon);
@@ -330,7 +330,7 @@ nav {
   display: inline-block;
   margin: auto;
   padding: 10px;
-  width: 50%;
+  width: 80%;
   height: 50%;
   justify-content: center;
   border: solid 2px var(--celadon);
