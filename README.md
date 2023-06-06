@@ -1,7 +1,7 @@
 # Welcome to my portfolio website
 
 The website is composed of four seperate pages.  
-HOME\n:
+HOME:
 The first page is the home page where you will find a few of my projects with a title, image, and description of each.  
 The title and image are both clickable links to either the project website or the project github repository. 
 Any time you want to revisit the home page, you can click on home in the navbar or the logo at the top with the initials GL.
