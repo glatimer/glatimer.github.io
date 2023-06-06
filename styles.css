@@ -80,8 +80,8 @@ a {
 #about-img {
   display: flex;
   margin: auto;
-  width: 200px;
-  height: 50px;
+  width: 175px;
+  height: 30px;
 }
 
 #portfolio-img {
@@ -117,6 +117,11 @@ a {
   #experience-img {
     width: 100%;
     height: 100%;
+  }
+
+  #about-img {
+    width: 50%;
+    height: 50%;
   }
 }
 
@@ -352,8 +357,8 @@ nav {
 .project-text {
   /* border: solid 5px var(--dusty_coral);
   border-radius: 3px; */
-  padding: 10px;
-  font-size: 23px;
+  padding: 40px;
+  font-size: 25px;
 }
 
 @media (max-width: 420px) {
@@ -365,6 +370,7 @@ nav {
 
   .project-text {
     font-size: 20px;
+    padding: 5px;
     border: solid 5px var(--dark_ocean);
     border-radius: 3px;
   }
