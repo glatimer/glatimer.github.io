@@ -23,6 +23,22 @@ in mobile mode.
 
 Resources:
 
-- horizontal scrollbar:
+- Horizontal Scrollbar:
   - https://developer.mozilla.org/en-US/docs/Web/CSS/overflow-x
   - https://www.w3schools.com/howto/howto_css_menu_horizontal_scroll.asp
+
+- JS Navbar:
+  - https://www.w3schools.com/js/js_string_templates.asp
+
+- a link img :hover:
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow
+
+- Email Form
+  - https://www.youtube.com/watch?v=sGQSz22U8VM
+  - https://www.youtube.com/watch?v=Q2dMnVfQgXA
+
+- Figure
+  - https://www.w3schools.com/tags/tag_figure.asp
+
+    
+
