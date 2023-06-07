@@ -1,5 +1,5 @@
 # Welcome to my portfolio website
-
+https://glatimer.github.io/resume/
 The website is composed of four seperate pages.  
 HOME:
 The first page is the home page where you will find a few of my projects with a title, image, and description of each.  
