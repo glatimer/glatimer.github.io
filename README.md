@@ -14,8 +14,8 @@ This page lists both professional and academic experience with a link to contact
 
 CONTACT:
 This page has a submission form that starts an email to me from the local machine's defuault mail program.
-A blank email addressed to me will open on a new page when clicked.
-Some other links include my github and linkedin sites where you can learn more about some of my projects.
+A blank email addressed to me will open in a new tab when clicked.
+Some other links include my GitHub and LinkedIn sites where you can learn more about some of my projects.
 
 Everything has been designed mobile-first. One thing that may not be intuitive is that the navbar has a
 horizontal scroll bar when in mobile screen mode so make sure to click on Contact, which may be off screen
