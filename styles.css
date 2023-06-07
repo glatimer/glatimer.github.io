@@ -362,8 +362,6 @@ nav {
   height: 80%;
   text-align: center;
   color: var(--white);
-  /* border: solid 5px var(--dusty_coral);
-  border-radius: 3px; */
 }
 
 .project-tile #garden-planner {
