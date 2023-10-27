@@ -191,6 +191,16 @@ nav {
 
 /* --------- text boxes for About Me and Experience pages --------- */
 
+.about-skills {
+  margin: auto;
+  display: flexbox;
+  max-width: 400px;
+  border: 10px solid var(--dusty_coral);
+  border-style: double;
+  border-radius: 10px;
+  /* text-align: center; */
+}
+
 .exp-main {
   margin: auto;
   display: flex;
