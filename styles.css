@@ -385,7 +385,8 @@ nav {
 }
 
 .project-tile #health-tracker,
-.project-tile #classroom-scheduler {
+.project-tile #classroom-scheduler,
+#goal-getter {
   display: inline-block;
   margin: auto;
   padding: 10px;
@@ -399,7 +400,8 @@ nav {
 
 .project-tile #garden-planner:hover,
 .project-tile #health-tracker:hover,
-.project-tile #classroom-scheduler:hover {
+.project-tile #classroom-scheduler:hover,
+#goal-getter:hover {
   box-shadow: 0px 0px 10px var(--canteloupe);
 }
 
